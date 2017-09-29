@@ -12,7 +12,7 @@ class EmailParser
   end
 
   def parse
-    @emails.split(/\,\s|\s/)
+    string.emails.split(/\,\s|\s/)
   end
 
 end
