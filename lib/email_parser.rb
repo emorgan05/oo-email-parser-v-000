@@ -6,13 +6,8 @@
 class EmailParser
   attr_accessor :emails
 
-  def self.create(emails)
-    string = self.new
-    string.emails = emails
-  end
-
   def parse
-    string.emails.split(/\,\s|\s/)
+    self.emails.split(/\,\s|\s/)
   end
 
 end
