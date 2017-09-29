@@ -9,7 +9,7 @@ class EmailParser
   def self.create(emails)
     @emails = emails
   end
-  
+
   def parse
     @emails.split(/\,\s|\s/)
   end
